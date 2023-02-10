@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div class="login-button">
+        <button><a href="index.html"><i class="fas fa-user-alt"></i>VOLTAR</a></button>
+    </div>
+
+    <main>
+
+        <div class="box" id="form">
+            <div class="form-box">
+                <h2>DADOS DO CLIENTE:</h2><br>
+                <form action="#">
+                    <fieldset>
+                        <div class="input-group">
+                            <label>NOME </label>
+                            <input type="text" id="nome" placeholder="Digite seu nome..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <label>SOBRENOME </label>
+                            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <label>DATA DE NASCIMENTO </label>
+                            <input type="date" id="data" placeholder="Digite seu data de nascimento..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <label>CPF </label>
+                            <input type="text" id="cpf" placeholder="Digite seu cpf..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <label>CELULAR </label>
+                            <input type="tel" id="celular" placeholder="Digite seu celular..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <label>EMAIL </label>
+                            <input type="email" id="email" placeholder="Digite seu email..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <label>ESTADO </label>
+                            <input type="text" id="estado" placeholder="Digite seu estado..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <label>PAÍS </label>
+                            <input type="text" id="pais" placeholder="Digite seu país..." autocomplete="off"><br>
+                        </div>
+
+                        <div class="input-group">
+                            <button onclick="guardaFormulario()">IMPRIMIR</button>
+                        </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="imprimirDados" id="imprimir">
+           
+            <br><br>
+            <div id="nome1"></div>
+            <br />
+
+            <div id="sobrenome1"></div>
+            <br />
+
+            <div id="data1"></div>
+            <br /> 
+
+            <div id="cpf1"></div>
+            <br /> 
+
+            <div id="celular1"></div>
+            <br /> 
+
+            <div id="email1"></div>
+            <br /> 
+
+            <div id="estado1"></div>
+            <br /> 
+
+            <div id="pais1"></div>
+            <br /> 
+        </div>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>
